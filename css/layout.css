@@ -1,0 +1,127 @@
+.line1{
+  width:480px;
+  height:75px;
+  background-color:rgb(76, 24, 199);
+  justify-content: center;  
+  display: flex;   
+  align-items: center;
+  
+}
+.line2{
+  width:480px;
+  height:150px;
+  background-color:yellow;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+  
+}
+.line3{
+  width:480px;
+  height:125px;
+  background-color:green;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+  
+}
+.line4{
+  width:480px;
+  height:125px;
+  background-color:violet;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+  
+}
+/* .line5{
+  width:480px;
+  height:250px;
+  background-color:purple;
+} */
+/* .line6{
+  width:480px;
+  height:250px;
+  background-color:brown;
+} */
+.line7{
+  clear:both;
+  width:480px;
+  height:80px;
+  background-color:blue;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+} 
+.box1{
+  clear:both;
+  width:240px;
+  height:250px;
+  background-color:blue;
+  float:left;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+}
+.box2{
+  width:240px;
+  height:250px;
+  background-color:red;
+  float: left;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+  
+}
+.box3{
+  clear:both;
+  width:240px;
+  height:250px;
+  background-color:yellow;
+  float:left;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+
+}
+.box4{
+  width:240px;
+  height:250px;
+  float:left;
+  background-color: brown;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+ 
+}
+main{
+  margin: auto;
+  width:480px;
+}
+@media only screen /*and (max-width: 960px)*/ and (min-width:400px){
+  
+.line1{
+  width:960px;
+  height:100px;
+  background-color:rgb(76, 24, 199);
+  justify-content: center;  
+  display: flex;   
+  align-items: center;
+  }
+  .line2{
+    width:200px;
+    height:600px;
+    background-color:yellow;
+    justify-content: center;  
+    display: flex;   
+    align-items: center
+}
+.line3{
+  width:300px;
+  height:200px;
+  float:right;
+  background-color:green;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+}}
