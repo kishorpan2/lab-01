@@ -31,19 +31,27 @@
   background-color:violet;
   justify-content: center;  
   display: flex;   
-  align-items: center
+  align-items: center;
+  float:left;
   
 }
-/* .line5{
+.line5{
   width:480px;
   height:250px;
-  background-color:purple;
-} */
-/* .line6{
-  width:480px;
+  float: left;
+  justify-content: center;  
+  display: flex;   
+  align-items: center;
+  margin:0px;
+} 
+.line6{
+  width: 480px;
   height:250px;
-  background-color:brown;
-} */
+  float: left;
+  justify-content: center;  
+  display: flex;   
+  align-items: center
+} 
 .line7{
   clear:both;
   width:480px;
@@ -54,11 +62,9 @@
   align-items: center
 } 
 .box1{
-  clear:both;
   width:240px;
   height:250px;
   background-color:blue;
-  float:left;
   justify-content: center;  
   display: flex;   
   align-items: center
@@ -67,27 +73,22 @@
   width:240px;
   height:250px;
   background-color:red;
-  float: left;
   justify-content: center;  
   display: flex;   
   align-items: center
-  
 }
+
 .box3{
-  clear:both;
   width:240px;
   height:250px;
-  background-color:yellow;
-  float:left;
+  background-color:violet;
   justify-content: center;  
   display: flex;   
   align-items: center
-
 }
 .box4{
   width:240px;
   height:250px;
-  float:left;
   background-color: brown;
   justify-content: center;  
   display: flex;   
@@ -97,9 +98,13 @@
 main{
   margin: auto;
   width:480px;
+
 }
-@media only screen /*and (max-width: 960px)*/ and (min-width:400px){
-  
+@media only screen /*and (max-width: 960px)*/ and (min-width:500px){
+  main{
+  margin: auto;
+  width:1060px;
+}
 .line1{
   width:960px;
   height:100px;
@@ -107,6 +112,7 @@ main{
   justify-content: center;  
   display: flex;   
   align-items: center;
+  float:left;
   }
   .line2{
     width:200px;
@@ -114,14 +120,101 @@ main{
     background-color:yellow;
     justify-content: center;  
     display: flex;   
-    align-items: center
+    align-items: center;
+    float:left;
 }
 .line3{
-  width:300px;
+  float:left;
+  width:380px;
   height:200px;
-  float:right;
   background-color:green;
   justify-content: center;  
+  /* display: flex;     */
+  align-items: center;
+}
+.line4{
+float:left;
+  width:380px;
+  height:200px;
+  background-color:violet;
+  justify-content: center;  
+  align-items: center;
+  
+  }
+  .line5{
+    width:380px;
+    height:250px;
+    float: left;
+    justify-content: center;  
+    display: flex;   
+    align-items: center;
+    margin:0px;
+  } 
+  .line6{
+    width:380px;
+    height:250px;
+    float: left;
+    justify-content: center;  
+    display: flex;   
+    align-items: center;
+    margin:0px;
+  } 
+  .line7{
+    width:480px;
+    height:80px;
+    background-color: black;
+    justify-content: center; 
+    clear:none;
+}
+.box1{
+  clear:both;
+  width:240px;
+  height:250px;
+  background-color:blue;
+  justify-content: center; 
+  line-height: 50px; 
   display: flex;   
-  align-items: center
-}}
+  align-items: center;
+  
+}
+.box2{
+  width:240px;
+  height:250px;
+  background-color:red;
+  justify-content: center;  
+  display: flex; 
+  align-items: center;
+  float:left;
+  
+  
+}
+.box3{
+  width:240px;
+  height:250px;
+  background-color:yellow;
+  float:left;
+  justify-content: center;  
+  display: flex;    
+  align-items: center;
+  line-height: 50px;
+  
+
+}
+.box4{
+  width:240px;
+  height:250px;
+  float:left;
+  background-color: brown;
+  justify-content: center;  
+  display: flex;   
+  align-items: center;
+  
+ 
+}
+.line7{
+  width:760px;
+  height:150px;
+  background-color: rgb(212, 151, 19);
+  justify-content: center; 
+  clear:none;
+}
