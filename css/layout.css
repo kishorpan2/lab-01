@@ -32,13 +32,13 @@
   justify-content: center;  
   display: flex;   
   align-items: center;
-  float:left;
+  /* float:left; */
   
 }
 .line5{
   width:480px;
   height:250px;
-  float: left;
+  /* float: left; */
   justify-content: center;  
   display: flex;   
   align-items: center;
@@ -47,13 +47,13 @@
 .line6{
   width: 480px;
   height:250px;
-  float: left;
+  /* float: left; */
   justify-content: center;  
   display: flex;   
   align-items: center
 } 
 .line7{
-  clear:both;
+  /* clear:both; */
   width:480px;
   height:80px;
   background-color:blue;
@@ -100,10 +100,27 @@ main{
   width:480px;
 
 }
+
 @media only screen /*and (max-width: 960px)*/ and (min-width:500px){
   main{
   margin: auto;
   width:1060px;
+  /* flex-wrap: wrap; */
+}
+.thirdbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.fourbox{
+  display: flex;
+}
+.secbox{
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; */
 }
 .line1{
   width:960px;
@@ -112,7 +129,7 @@ main{
   justify-content: center;  
   display: flex;   
   align-items: center;
-  float:left;
+  /* float:left; */
   }
   .line2{
     width:200px;
@@ -121,7 +138,7 @@ main{
     justify-content: center;  
     display: flex;   
     align-items: center;
-    float:left;
+    /* float:left; */
 }
 .line3{
   float:left;
@@ -131,9 +148,11 @@ main{
   justify-content: center;  
   /* display: flex;     */
   align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 .line4{
-float:left;
+/* float:left; */
   width:380px;
   height:200px;
   background-color:violet;
@@ -144,20 +163,25 @@ float:left;
   .line5{
     width:380px;
     height:250px;
-    float: left;
-    justify-content: center;  
-    display: flex;   
+    /* float: left; */
+    justify-content: space-between;  
+    /* display: flex;    */
     align-items: center;
     margin:0px;
+    
+    /* display: ; */
+  flex-direction: row;
   } 
   .line6{
     width:380px;
     height:250px;
-    float: left;
+    /* float: left; */
     justify-content: center;  
     display: flex;   
     align-items: center;
     margin:0px;
+    display: flex;
+  flex-direction: row;
   } 
   .line7{
     width:480px;
@@ -175,6 +199,8 @@ float:left;
   line-height: 50px; 
   display: flex;   
   align-items: center;
+  display: flex;
+  flex-direction: row;
   
 }
 .box2{
@@ -184,7 +210,9 @@ float:left;
   justify-content: center;  
   display: flex; 
   align-items: center;
-  float:left;
+  display: flex;
+  flex-direction: row;
+  /* float:left; */
   
   
 }
@@ -192,22 +220,26 @@ float:left;
   width:240px;
   height:250px;
   background-color:yellow;
-  float:left;
+  /* float:left; */
   justify-content: center;  
   display: flex;    
   align-items: center;
   line-height: 50px;
+  display: flex;
+  flex-direction: row;
   
 
 }
 .box4{
   width:240px;
   height:250px;
-  float:left;
+  /* float:left; */
   background-color: brown;
   justify-content: center;  
   display: flex;   
   align-items: center;
+  display: flex;
+  flex-direction: row;
   
  
 }
@@ -216,5 +248,6 @@ float:left;
   height:150px;
   background-color: rgb(212, 151, 19);
   justify-content: center; 
-  clear:none;
+
+  /* clear:none; */
 }
