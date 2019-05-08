@@ -100,8 +100,8 @@ main{
   width:480px;
 
 }
-
-@media only screen /*and (max-width: 960px)*/ and (min-width:500px){
+/* Desktop mode */
+@media only screen and (min-width:800px){
   main{
   margin: auto;
   width:1060px;
@@ -248,6 +248,34 @@ main{
   height:150px;
   background-color: rgb(212, 151, 19);
   justify-content: center; 
-
-  /* clear:none; */
+}
+}
+@media only screen and (min-width: 700px) and (max-width:799px) { 
+  .line1{
+    background-color: brown;
+  }
+  .line2{
+    background-color:blue;
+  }
+  .line3{
+    background-color: yellow;
+  }
+  .line4{
+    background-color:turquoise;
+  }
+  .box1{
+    background-color:orange;
+  }
+  .box2{
+    background-color:oranged;
+  }
+  .box3{
+      background-color:black
+  }
+  .box4{
+  background-color:green;
+}
+.line7{
+  background-color: brown;
+}
 }
